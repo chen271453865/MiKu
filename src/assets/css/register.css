@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  background: url("../imgs/login_bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: fixed;
+}
+.mat300 {
+  position: fixed;
+  width: 475.750px;
+  z-index: 200;
+  text-align: center;
+  padding: 20px 0px 20px 0;
+  top: 50%;
+  transform: translate(0,-70%);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+}
+.login_bg{
+	background: url("../imgs/slogan.png");
+	width: 217px;
+    height: 55px;
+	position: relative;
+	margin-bottom: 20px;
+}
